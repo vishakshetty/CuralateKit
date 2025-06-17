@@ -21,8 +21,10 @@ public enum ItemType: String, Decodable {
     case pinterest
     case facebook
     case instagram
+    case tiktok
     case twitter
     case tumblr
+    case youtube
     case mediaimport
 }
 

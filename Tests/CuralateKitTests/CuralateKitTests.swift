@@ -74,6 +74,9 @@ class CuralateKitTests: XCTestCase {
             XCTAssertEqual(product1?.price?.value, 140)
             XCTAssertEqual(product1?.price?.currencySymbol, "$")
             XCTAssertEqual(product1?.price?.currencyCode, "USD")
+            XCTAssertEqual(product1?.price?.saleValue, 99)
+            XCTAssertEqual(product1?.price?.saleDisplay, "99")
+            XCTAssertEqual(product1?.price?.isOnSale, true)
             XCTAssertEqual(product1?.link, URL(string:"https://www.example.com/product1"))
             XCTAssertEqual(product1?.metadata, [
                 "manufacturer": "Manufacturer1",
