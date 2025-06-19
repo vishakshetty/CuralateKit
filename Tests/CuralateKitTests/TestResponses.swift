@@ -116,7 +116,10 @@ struct TestResponses {
                             "display": "140",
                             "value": 140,
                             "currencySymbol": "$",
-                            "currencyCode": "USD"
+                            "currencyCode": "USD",
+                            "saleValue": 99,
+                            "saleDisplay": "99",
+                            "isOnSale": true
                         },
                         "link": "https://www.example.com/product1",
                         "metadata": {
